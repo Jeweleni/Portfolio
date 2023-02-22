@@ -43,16 +43,16 @@ header{
  /* ======= ME ======== */
 
  .me{
-    background: linear-gradient( var(--color-primary), transparent);
+    background: linear-gradient( rgb(73, 74, 74), transparent);
     width: 22rem;
-    height: 40rem;
+    height: 50rem;
     position: relative;
     left: calc(50% - 10rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     /* justify-content: center; */
     overflow: hidden;
-    /* padding: 0.05rem 0.5rem 0.5rem 0.5rem; */
+    padding: 0.005rem 3rem 0.5rem 3rem;
     
     
  }
@@ -87,4 +87,8 @@ header{
     .header__socials, .scroll__down{
         display: none;
     }
+    .me{
+        border-radius: 12rem 12rem 5rem 5rem;
+    }
+
 }    
