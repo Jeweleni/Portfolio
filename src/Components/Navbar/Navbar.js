@@ -5,6 +5,7 @@ import { RiServiceFill } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import "./Navbar.css";
 import { useState } from "react";
+import { FaTools } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -17,6 +18,9 @@ const Navbar = () => {
       </a>
       <a href="#about" onClick={() => setActiveNav("#about")}className={activeNav === "#about" ? "active" : "" } >
         <AiOutlineUser />
+      </a>
+      <a href="#experience" onClick={() => setActiveNav("#experience")}className={activeNav === "#services" ? "active" : "" }>
+        <FaTools/>
       </a>
       <a href="#portfolio" onClick={() => setActiveNav("#portfolio")}className={activeNav === "#portfolio" ? "active" : "" }>
         <BiBook />

@@ -1,3 +1,5 @@
+import React from "react";
+import "./Experience.css";
 import { FaBootstrap, FaCss3, FaGit, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
@@ -10,32 +12,42 @@ const Experience = () => {
             <div className="container experience__container">
                 <div className="experience__frontend">
                     <h3>Software Development</h3>
-                    <div className="experinece__content">
+                    <div className="experience__content">
                         <article className="experience__details">
-                            <FaReact/>
+                            <FaReact className="experience__details-icon"/>
+                            <div>
                             <h4>React</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         <article className="experience__details">
-                            <FaVuejs/>
+                            <FaVuejs className="experience__details-icon"/>
+                            <div>
                             <h4>Vue Js</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         <article className="experience__details">
-                            <TbBrandJavascript/>
+                            <TbBrandJavascript className="experience__details-icon"/>
+                            <div>
                             <h4>Javascript</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         
                         <article className="experience__details">
-                            <FaHtml5/>
+                            <FaHtml5 className="experience__details-icon"/>
+                            <div>
                             <h4>Html5</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         <article className="experience__details">
-                            <TbBrandNextjs/>
+                            <TbBrandNextjs className="experience__details-icon"/>
+                            <div>
                             <h4>Next Js</h4>
                             <small className="text-light">Intermediate</small>
+                            </div>
                         </article>
                     </div>
                 </div>
@@ -44,25 +56,33 @@ const Experience = () => {
                     <h3>Software Development</h3>
                     <div className="experinece__content">
                         <article className="experience__details">
-                            <FaCss3/>
+                            <FaCss3 className="experience__details-icon"/>
+                            <div>
                             <h4>CSS3</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         <article className="experience__details">
-                            <FaBootstrap/>
+                            <FaBootstrap className="experience__details-icon"/>
+                            <div>
                             <h4>Nodejs</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         
                         <article className="experience__details">
-                            <FaGit/>
+                            <FaGit className="experience__details-icon"/>
+                            <div>
                             <h4>Git</h4>
                             <small className="text-light">Experienced</small>
+                            </div>
                         </article>
                         <article className="experience__details">
-                            <SiTailwindcss/>
+                            <SiTailwindcss className="experience__details-icon"/>
+                            <div>
                             <h4>Tailwind</h4>
                             <small className="text-light">Intermediate</small>
+                            </div>
                         </article>
                     </div>
                 </div>

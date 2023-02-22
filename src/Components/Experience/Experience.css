@@ -1,7 +1,8 @@
 .experience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  margin-top: 4rem;
 }
 
 .experience__container > div {
@@ -18,8 +19,24 @@
   cursor: default;
 }
 
-.experience__container > div > h3 {
+.experience__container > div h3 {
   text-align: center;
   color: var(--color-primary);
   margin-bottom: 2rem;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  align-items: center;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
 }
