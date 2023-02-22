@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import coding from "./coding.png"
-import { FaAward, FaCss3, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
 
 const About = () => {
