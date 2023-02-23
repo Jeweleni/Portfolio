@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.css";
 import { FaBootstrap, FaCss3, FaGit, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
+import {  SiTypescript } from "react-icons/si";
 const Experience = () => {
     return ( 
         <section id="experience">
@@ -78,9 +78,9 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <SiTailwindcss className="experience__details-icon"/>
+                            <SiTypescript className="experience__details-icon"/>
                             <div>
-                            <h4>Tailwind</h4>
+                            <h4>Typescript</h4>
                             <small className="text-light">Intermediate</small>
                             </div>
                         </article>

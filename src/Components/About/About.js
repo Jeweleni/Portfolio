@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
 import coding from "./coding.png"
-import { FaCss3, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
-import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
+import { FaAward } from "react-icons/fa";
+import { IoSchoolSharp, IoGitNetwork } from "react-icons/io5";
 
 const About = () => {
     return ( 
@@ -19,38 +19,23 @@ const About = () => {
                     <div className="about__content">
                         <div className="about__cards">
                             <article className="about__card"> 
-                                <FaReact className= "about__icon"/>
-                                <h5>experience</h5>
-                                <small>React</small>  
+                                <FaAward className= "about__icon"/>
+                                <h5>Experience</h5>
+                                <small>12 Months+</small>  
                             </article>
                             <article className="about__card">
-                                <FaVuejs className= "about__icon"/>
-                               <h5>experience</h5>
-                                <small>Vue.js</small>
+                                <IoSchoolSharp className= "about__icon"/>
+                               <h5>Education</h5>
+                                <small>Altschool Africa</small>
                             </article>
                             <article className="about__card">
-                                <TbBrandJavascript className= "about__icon"/>
-                                <h5>experience</h5>
-                                <small>Javascript</small>
+                                <IoGitNetwork className= "about__icon"/>
+                                <h5>Projects</h5>
+                                <small>20+ Completed</small>
                             </article>
-                            <article className="about__card">
-                                <TbBrandNextjs className= "about__icon"/>
-                                <h5>experience</h5>
-                                <small>Next.js</small>
-                            </article>
-                            <article className="about__card">  
-                                <FaCss3 className= "about__icon"/>
-                                <h5>experience</h5>
-                                <small>CSS3</small>
-                            </article>
-                            <article className="about__card">  
-                                <FaHtml5 className= "about__icon"/>
-                                <h5>experience</h5>
-                                <small>Html5</small>
-                            </article>
-                            
+                           
                         </div>
-                        <p>I'm a Frontend Engineer</p>
+                        <p>I'm a Writer and FrontEnd Engineer in Nigeria. I write codes, music, novels and short stories. </p>
                            <a href="#contacts" className="btn btn-primary">Let's Talk</a>
                     </div>
             </div>
