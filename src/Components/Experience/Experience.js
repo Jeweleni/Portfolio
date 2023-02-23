@@ -1,8 +1,8 @@
 import React from "react";
 import "./Experience.css";
-import { FaBootstrap, FaCss3, FaGit, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
+import { FaBootstrap, FaCss3, FaGit, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
-import {  SiTypescript } from "react-icons/si";
+import {  SiTailwindcss, SiTypescript } from "react-icons/si";
 const Experience = () => {
     return ( 
         <section id="experience">
@@ -54,7 +54,14 @@ const Experience = () => {
 
                 <div className="experience__backend">
                     <h3>Software Development</h3>
-                    <div className="experinece__content">
+                    <div className="experience__content">
+                    <article className="experience__details">
+                            <SiTailwindcss className="experience__details-icon"/>
+                            <div>
+                            <h4>TailwindCss</h4>
+                            <small className="text-light">Experienced</small>
+                            </div>
+                        </article>
                         <article className="experience__details">
                             <FaCss3 className="experience__details-icon"/>
                             <div>
@@ -71,9 +78,9 @@ const Experience = () => {
                         </article>
                         
                         <article className="experience__details">
-                            <FaGit className="experience__details-icon"/>
+                            <FaGithub className="experience__details-icon"/>
                             <div>
-                            <h4>Git</h4>
+                            <h4>Github</h4>
                             <small className="text-light">Experienced</small>
                             </div>
                         </article>
