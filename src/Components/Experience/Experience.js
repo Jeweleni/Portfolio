@@ -76,18 +76,17 @@ const Experience = () => {
                             <small className="text-light">Experienced</small>
                             </div>
                         </article>
-                        
-                        <article className="experience__details">
-                            <FaGithub className="experience__details-icon"/>
-                            <div>
-                            <h4>Github</h4>
-                            <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
                         <article className="experience__details">
                             <SiTypescript className="experience__details-icon"/>
                             <div>
                             <h4>Typescript</h4>
+                            <small className="text-light">Intermediate</small>
+                            </div>
+                        </article>
+                        <article className="experience__details">
+                            <FaGithub className="experience__details-icon"/>
+                            <div>
+                            <h4>Github</h4>
                             <small className="text-light">Intermediate</small>
                             </div>
                         </article>
