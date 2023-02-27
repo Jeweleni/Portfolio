@@ -78,7 +78,7 @@ header{
     }
 }
 
-/* ======MEDIA QUESRIES (MEDIUM DEVICES) ====== */
+/* ======MEDIA QUESRIES (SMALL DEVICES) ====== */
 
 @media screen and (max-width: 600px) {
     .header{

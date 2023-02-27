@@ -41,7 +41,7 @@
   color: var(--color-primary);
 }
 
-/* =====MEDIA QUESRIES==== */
+/* =====MEDIA QUESRIES MEDIUM DEVICES==== */
 
 @media screen and (max-width: 1024px) {
   .experience__container {
@@ -58,6 +58,8 @@
     padding: 1rem;
   }
 }
+
+/* =======MEDIA QUERIES SMALL DEVICES ======= */
 
 @media screen and (max-width: 600px) {
   .experience__container {
