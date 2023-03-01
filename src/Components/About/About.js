@@ -35,7 +35,13 @@ const About = () => {
                             </article>
                            
                         </div>
-                        <p>I'm a Writer and FrontEnd Engineer in Nigeria. I write codes, music, novels and short stories. </p>
+                        <p>I am a motivated and result driven Software Engineer. My focus is on building
+and optimizing user-focused websites and apps for clients with diverse
+business objectives. With exceptional organizational, problem-solving and
+communication skills, I thrive in collaborative environments where I can
+effectively contribute to project success. I am a highly adaptable learner,
+continuously improving my abilities and taking on new challenges one
+problem at a time. </p>
                            <a href="#contacts" className="btn btn-primary">Let's Talk</a>
                     </div>
             </div>
