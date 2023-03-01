@@ -28,18 +28,18 @@ const Contacts = () => {
         <div className="container contact__container">
           <div className="contact__options">
             <article className="conatact__option">
-              <MdOutlineEmail className='conatact__option-icon'/>
+              <MdOutlineEmail className='contact__option-icon'/>
               <h4>Email</h4>
               <h5>jeweleni@gmail.com</h5>
               <a href='mailto:jeweleni@gmail.com'>Send a message</a>
             </article>
-            <article className="conatact__option">
+            <article className="contact__option__option-icon">
               <BsWhatsapp className='conatact__option-icon'/>
               <h4>Whatsapp</h4>
               <h5>+2348147528661</h5>
               <a href='https://api.whatsapp.com/send/?phone=2348147528661&text=Hello ' rel="noreferrer" target="_blank">Send a message</a>
             </article>
-            <article className="conatact__option">
+            <article className="contact__option__option-icon">
               <FaLinkedin/>
               <h4>Linkedin</h4>
               <h5>jeweleni@gmail.com</h5>
@@ -47,7 +47,7 @@ const Contacts = () => {
             </article>
 
           </div>
-          <div>
+       
 
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="name" placeholder="Your Full Name" required/>
@@ -56,7 +56,7 @@ const Contacts = () => {
 
             <button type='submit' className='btn btn-primary' >Send Message</button>
           </form>
-          </div>
+     
         </div>
 
        </section>
