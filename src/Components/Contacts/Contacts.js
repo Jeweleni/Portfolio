@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import './Contacts.css';
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import { FaLinkedin } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 
 const Contacts = () => {
@@ -36,24 +37,26 @@ const Contacts = () => {
               <BsWhatsapp className='conatact__option-icon'/>
               <h4>Whatsapp</h4>
               <h5>+2348147528661</h5>
-              <a href='https://api.whatsapp.com/send?phone=+2348147528661' rel="noreferrer" target="_blank">Send a message</a>
+              <a href='https://api.whatsapp.com/send/?phone=2348147528661&text=Hello ' rel="noreferrer" target="_blank">Send a message</a>
             </article>
-            {/* <article className="conatact__option">
+            <article className="conatact__option">
               <FaLinkedin/>
               <h4>Linkedin</h4>
               <h5>jeweleni@gmail.com</h5>
-              <a href=''>Senf a message</a>
-            </article> */}
+              <a href='https://www.linkedin.com/in/momoreoluwajeweleni/'>Send a message</a>
+            </article>
 
           </div>
+          <div>
 
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" placeholder="Your Email" required/>
             <textarea name="message" rows="name" placeholder="Your Message" required/>
 
-            <button type='submit' className='btn btn-primary'>Send Message</button>
+            <button type='submit' className='btn btn-primary' >Send Message</button>
           </form>
+          </div>
         </div>
 
        </section>
