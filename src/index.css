@@ -39,7 +39,7 @@ body{
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(/public/assets/blackbackground.avif);
+  /* background-image: url(/public/assets/blackbackground.avif); */
 }
 
 /* ===GENERAL STYLE==== */
