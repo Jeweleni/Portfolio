@@ -58,7 +58,7 @@ const Experience = () => {
                     <article className="experience__details">
                             <SiTailwindcss className="experience__details-icon"/>
                             <div>
-                            <h4>TailwindCss</h4>
+                            <h4>Github</h4>
                             <small className="text-light">Experienced</small>
                             </div>
                         </article>
@@ -86,7 +86,7 @@ const Experience = () => {
                         <article className="experience__details">
                             <FaGithub className="experience__details-icon"/>
                             <div>
-                            <h4>Github</h4>
+                            <h4>Tailwind Css</h4>
                             <small className="text-light">Intermediate</small>
                             </div>
                         </article>

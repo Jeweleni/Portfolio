@@ -17,6 +17,7 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 /* ======SOCIALS======= */
@@ -32,7 +33,7 @@ header{
 }
 
 .header__socials::after{
-    content: "";
+    /* content: ""; */
     width: 1px;
     height: 2rem;
     background-color: var(--color-primary);
@@ -49,6 +50,7 @@ header{
     position: relative;
     left: calc(50% - 10rem);
     margin-top: 4rem;
+    margin-bottom: 0.05rem;
     border-radius: 12rem 12rem 0 0;
     /* justify-content: center; */
     overflow: hidden;

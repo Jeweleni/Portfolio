@@ -11,7 +11,7 @@ const Socials = () => {
       <a href="https://github.com/Jeweleni" target="_blank">
         <FaGithub />
       </a>
-      <a href="">
+      <a href="https://medium.com/@EMJCREATES">
         <SiMedium />
       </a>
     </div>
