@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 import "./Footer.css";
 
@@ -29,6 +29,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
+      <a href="https://github.com/Jeweleni"  rel="noreferrer" target="_blank">
+        <FaGithub />
+      </a>
         <a href="https://twitter.com/jeweleni_diva">
           <IoLogoTwitter />
         </a>

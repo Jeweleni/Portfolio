@@ -10,6 +10,17 @@ header{
     position: relative;
 }
 
+
+.confetti{
+    width: 30%;
+    opacity: 100%;
+    margin-top: 0;
+    height: 30px;
+    /* transform: rotate(90deg); */
+ 
+
+}
+
 /* =========CTA========== */
 
 .cta{
