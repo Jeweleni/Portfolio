@@ -11,18 +11,18 @@
 }
 
 :root {
-  --color-bg: rgb(0, 0, 0);
-  --color-bg-variant: rgb(44, 16, 68);
+  --color-bg: rgb(255, 255, 255);
+  --color-bg-variant: rgb(255, 255, 255);
   --color-primary: rgb(122, 46, 198);
-  --color-primary-variant: rgb(165, 171, 141);
-  --color-white: white;
-  --color-light: rgb(213, 182, 182);
+  --color-primary-variant: rgb(141, 150, 106);
+  --color-white: rgb(0, 0, 0);
+  --color-light: rgb(202, 125, 125);
   
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-sm: 70%;
 }
 
 html{

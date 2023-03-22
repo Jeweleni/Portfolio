@@ -2,18 +2,18 @@ import React from "react";
 import './Header.css';
 import CTA from '../CTA/CTA'
 import me from './me.png'
-import confetti from "./confetti.json"
+// import confetti from "./confetti.json"
 import Socials from "../Socials/Socials";
 
-import Lottie from "lottie-react"
+// import Lottie from "lottie-react"
 
 const Header = () => {
     return ( 
         <header>
             <div className="container header__container">
-            <div className="confetti">
+            {/* <div className="confetti">
                 <Lottie animationData={confetti}/>
-                </div>
+                </div> */}
                 
                 <h4>Hello!!! <span>My name is </span></h4>
                 

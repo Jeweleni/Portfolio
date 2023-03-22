@@ -1,44 +1,41 @@
 import React from 'react';
 import './Portfolio.css';
-import bookapp from "./porfolio-images/bookapp.png"
-import calculator from "./porfolio-images/calculator.png"
+// import bookapp from "./porfolio-images/bookapp.png"
+// import calculator from "./porfolio-images/calculator.png"
 import Github from "./porfolio-images/Github.png"
 import jewelivy from "./porfolio-images/jewelivy.png"
-import noteapp from "./porfolio-images/noteapp.png"
+// import noteapp from "./porfolio-images/noteapp.png"
 import reciepewebsite from "./porfolio-images/reciepewebsite.png"
-import rentalagency from "./porfolio-images/rentalagency.png"
+// import rentalagency from "./porfolio-images/rentalagency.png"
+import Authentication from "./porfolio-images/Authentication.png"
 
 
 const data =[
 
     {
-        id: 5,
+        id: 1,
+        image: Authentication,
+        title: "Authentication App",
+        github: "https://github.com/Jeweleni/Authentication-app-1",
+        demo: "https://authentication-app-1.vercel.app/"
+    },
+
+    {
+        id: 2,
         image: jewelivy,
         title: "JewelIvy Party Website",
         github: "https://github.com/Jeweleni/React-Router-Assignment--2",
         demo: "https://altschoolreactrouterassignment.netlify.app/"
     },
+
     {
-        id: 6,
-        image: bookapp,
-        title: "Book App",
-        github: "https://github.com/Jeweleni/book-app",
-        demo: "https://book-app-olive.vercel.app"
+        id: 3,
+        image: Github,
+        title: "Github Portfolio",
+        github: "https://github.com/Jeweleni/Holiday-Challenge-MyGithub-portfolio ",
+        demo: "https://holiday-challenge-my-github-portfolio.vercel.app"
     },
-    {
-        id: 1,
-        image: rentalagency,
-        title: "Rental Agency",
-        github: "https://github.com/Jeweleni/rental-agency",
-        demo: "https://rental-agency.vercel.app/"
-    },
-    // {
-    //     id: 2,
-    //     image: Github,
-    //     title: "Github Portfolio",
-    //     github: "https://github.com/Jeweleni/Holiday-Challenge-MyGithub-portfolio ",
-    //     demo: "https://holiday-challenge-my-github-portfolio.vercel.app"
-    // },
+
     {
         id: 3,
         image: reciepewebsite,
@@ -46,13 +43,30 @@ const data =[
         github: "https://github.com/Jeweleni/Food-Website ",
         demo: "https://food-website-byemjcreates.vercel.app/"
     },
-    {
-        id: 4,
-        image: noteapp,
-        title: "Note App",
-        github: "https://github.com/Jeweleni/Note-App",
-        demo: "https://note-app-nu-pied.vercel.app"
-    },
+
+    // {
+    //     id: 5,
+    //     image: bookapp,
+    //     title: "Book App",
+    //     github: "https://github.com/Jeweleni/book-app",
+    //     demo: "https://book-app-olive.vercel.app"
+    // },
+    // {
+    //     id: 6,
+    //     image: rentalagency,
+    //     title: "Rental Agency",
+    //     github: "https://github.com/Jeweleni/rental-agency",
+    //     demo: "https://rental-agency.vercel.app/"
+    // },
+    
+   
+    // {
+    //     id: 7,
+    //     image: noteapp,
+    //     title: "Note App",
+    //     github: "https://github.com/Jeweleni/Note-App",
+    //     demo: "https://note-app-nu-pied.vercel.app"
+    // },
 
 
     // {

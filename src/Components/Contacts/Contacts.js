@@ -39,12 +39,12 @@ const Contacts = () => {
               <h5>+2348147528661</h5>
               <a href='https://api.whatsapp.com/send/?phone=2348147528661&text=Hello ' rel="noreferrer" target="_blank">Send a message</a>
             </article>
-            <article className="contact__option__option-icon">
+            {/* <article className="contact__option__option-icon">
               <FaLinkedin/>
               <h4>Linkedin</h4>
               <h5>jeweleni@gmail.com</h5>
               <a href='https://www.linkedin.com/in/momoreoluwajeweleni/'>Send a message</a>
-            </article>
+            </article> */}
 
           </div>
        
@@ -54,7 +54,7 @@ const Contacts = () => {
             <input type="email" name="email" placeholder="Your Email" required/>
             <textarea name="message" rows="name" placeholder="Your Message" required/>
 
-            <button type='submit' className='btn btn-primary' >Send Message</button>
+            <button type='submit'  className='btn btn-primary' onClick={SubmitEvent}>Send Message</button>
           </form>
      
         </div>

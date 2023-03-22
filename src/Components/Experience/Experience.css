@@ -9,13 +9,13 @@
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 2px solid black;
   transition: var(--transition);
 }
 
+
 .experience__container > div:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
+  border-color: transparent;
   cursor: default;
 }
 
@@ -41,6 +41,10 @@
   color: var(--color-primary);
 }
 
+h5{
+  margin-bottom: 20px;
+
+}
 /* =====MEDIA QUESRIES MEDIUM DEVICES==== */
 
 @media screen and (max-width: 1024px) {

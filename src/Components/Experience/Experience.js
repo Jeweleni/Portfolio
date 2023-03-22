@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import { FaBootstrap, FaCss3, FaGit, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
+import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
 import {  SiTailwindcss, SiTypescript } from "react-icons/si";
 const Experience = () => {

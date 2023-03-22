@@ -55,7 +55,7 @@ header{
  /* ======= ME ======== */
 
  .me{
-    background: linear-gradient( rgb(73, 74, 74), transparent);
+    /* background: linear-gradient( rgb(73, 74, 74), transparent); */
     width: 22rem;
     height: 50rem;
     position: relative;

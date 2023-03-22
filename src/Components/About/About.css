@@ -12,7 +12,7 @@
     /* ignore aspect ratio compatibility */
     border-radius: 2rem;
     background: linear-gradient(
-        45deg,
+        90deg,
         transparent, 
         var(--color-primary),
         transparent

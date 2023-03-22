@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <p>© 2023 EMJCreates. All rights reserved.</p>
+        <p>©EMJCreates_ 2023. All rights reserved.</p>
       </div>
     </footer>
   );
