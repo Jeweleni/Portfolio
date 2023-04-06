@@ -8,12 +8,21 @@ import jewelivy from "./porfolio-images/jewelivy.png"
 import reciepewebsite from "./porfolio-images/reciepewebsite.png"
 // import rentalagency from "./porfolio-images/rentalagency.png"
 import Authentication from "./porfolio-images/Authentication.png"
+import Dashboard from "./porfolio-images/Dashboard.png"
 
 
 const data =[
 
     {
         id: 1,
+        image: Dashboard,
+        title: "Authentication App",
+        github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
+        demo: "https://admin-dashboard-application.vercel.app/"
+    },
+
+    {
+        id: 2,
         image: Authentication,
         title: "Authentication App",
         github: "https://github.com/Jeweleni/Authentication-app-1",
@@ -21,7 +30,7 @@ const data =[
     },
 
     {
-        id: 2,
+        id: 3,
         image: jewelivy,
         title: "JewelIvy Party Website",
         github: "https://github.com/Jeweleni/React-Router-Assignment--2",
@@ -29,7 +38,7 @@ const data =[
     },
 
     {
-        id: 3,
+        id: 4,
         image: Github,
         title: "Github Portfolio",
         github: "https://github.com/Jeweleni/Holiday-Challenge-MyGithub-portfolio ",
@@ -37,7 +46,7 @@ const data =[
     },
 
     {
-        id: 3,
+        id: 5,
         image: reciepewebsite,
         title: "Receipe Website",
         github: "https://github.com/Jeweleni/Food-Website ",
