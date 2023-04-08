@@ -16,7 +16,7 @@ const data =[
     {
         id: 1,
         image: Dashboard,
-        title: "Authentication App",
+        title: "Admin Dashboard",
         github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
         demo: "https://admin-dashboard-application.vercel.app/"
     },
