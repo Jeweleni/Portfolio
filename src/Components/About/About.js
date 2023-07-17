@@ -22,17 +22,17 @@ const About = () => {
                             <article className="about__card"> 
                                 <FaAward className= "about__icon"/>
                                 <h5>Experience</h5>
-                                <small>12 Months+</small>  
+                                <small>18 Months+</small>  
                             </article>
-                            <article className="about__card">
+                            {/* <article className="about__card">
                                 <IoSchoolSharp className= "about__icon"/>
                                <h5>Education</h5>
                                 <small>Altschool Africa</small>
-                            </article>
+                            </article> */}
                             <article className="about__card">
                                 <IoGitNetwork className= "about__icon"/>
                                 <h5>Projects</h5>
-                                <small>20+ Completed</small>
+                                <small>40+ Completed</small>
                             </article>
                            
                         </div>

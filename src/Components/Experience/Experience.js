@@ -1,8 +1,9 @@
 import React from "react";
 import "./Experience.css";
-import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
-import { TbBrandNextjs, TbBrandJavascript } from "react-icons/tb";
+import { FaNodeJs, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
+import { TbBrandNextjs, TbBrandJavascript, TbLetterC} from "react-icons/tb";
 import {  SiTailwindcss, SiTypescript } from "react-icons/si";
+
 const Experience = () => {
     return ( 
         <section id="experience">
@@ -57,21 +58,21 @@ const Experience = () => {
                     <h3>Technical Skills</h3>
                     <div className="experience__content">
                     <article className="experience__details">
-                            <SiTailwindcss className="experience__details-icon"/>
+                            <FaGithub className="experience__details-icon"/>
                             <div>
                             <h4>Github</h4>
                            
                             </div>
                         </article>
                         <article className="experience__details">
-                            <FaCss3 className="experience__details-icon"/>
+                            <TbLetterC className="experience__details-icon"/>
                             <div>
-                            <h4>CSS3</h4>
+                            <h4>C</h4>
                            
                             </div>
                         </article>
                         <article className="experience__details">
-                            <FaBootstrap className="experience__details-icon"/>
+                            <FaNodeJs className="experience__details-icon"/>
                             <div>
                             <h4>Nodejs</h4>
                            
@@ -85,9 +86,9 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <FaGithub className="experience__details-icon"/>
+                            <SiTailwindcss className="experience__details-icon"/>
                             <div>
-                            <h4>Tailwind Css</h4>
+                            <h4>Tailwind CSS</h4>
                           
                             </div>
                         </article>

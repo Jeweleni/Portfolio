@@ -2,8 +2,7 @@ import React from 'react';
 import './Portfolio.css';
 // import bookapp from "./porfolio-images/bookapp.png"
 // import calculator from "./porfolio-images/calculator.png"
-import Github from "./porfolio-images/Github.png"
-import jewelivy from "./porfolio-images/jewelivy.png"
+// import jewelivy from "./porfolio-images/jewelivy.png"
 // import noteapp from "./porfolio-images/noteapp.png"
 // import reciepewebsite from "./porfolio-images/reciepewebsite.png"
 // import rentalagency from "./porfolio-images/rentalagency.png"
@@ -11,20 +10,35 @@ import Authentication from "./porfolio-images/Authentication.png"
 import Dashboard from "./porfolio-images/Dashboard.png"
 import metaverse from "./porfolio-images/metaverse.png"
 import Summarize from "./porfolio-images/Summarize.png"
+import Carefinder from "./porfolio-images/Carefinder.png"
+import swiphr from "./porfolio-images/swiphr.png"
 
 
 const data =[
     
     {
         id: 1,
+        image: Carefinder,
+        title: "Carefinder",
+        github: "https://github.com/Jeweleni/carefinder",
+        demo: "https://github.com/Jeweleni/carefinder"
+    },
+    {
+        id: 2,
         image: Summarize,
         title: "OpenAI GPT-4",
         github: "https://github.com/Jeweleni/openai-summarizer",
         demo: "https://openai-summarizer-inky.vercel.app/"
     },
-    
     {
-        id: 2,
+        id: 3,
+        image: swiphr,
+        title: "Swiphr",
+        github: "https://github.com/Jeweleni/swiphr",
+        demo: "https://swiphr-alpha.vercel.app/"
+    },
+    {
+        id: 4,
         image: Dashboard,
         title: "Admin Dashboard",
         github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
@@ -32,7 +46,7 @@ const data =[
     },
 
     {
-        id: 3,
+        id: 5,
         image: Authentication,
         title: "Authentication App",
         github: "https://github.com/Jeweleni/Authentication-app-1",
@@ -40,28 +54,28 @@ const data =[
     },
 
     {
-        id: 4,
+        id: 6,
         image: metaverse,
         title: "Metaverse",
         github: "https://github.com/Jeweleni/metaverse",
         demo: "https://metaversebyjewel.vercel.app/"
     },
 
-    {
-        id: 5,
-        image: jewelivy,
-        title: "JewelIvy Party Website",
-        github: "https://github.com/Jeweleni/React-Router-Assignment--2",
-        demo: "https://altschoolreactrouterassignment.netlify.app/"
-    },
+    // {
+    //     id: 5,
+    //     image: jewelivy,
+    //     title: "JewelIvy Party Website",
+    //     github: "https://github.com/Jeweleni/React-Router-Assignment--2",
+    //     demo: "https://altschoolreactrouterassignment.netlify.app/"
+    // },
 
-    {
-        id: 6,
-        image: Github,
-        title: "Github Portfolio",
-        github: "https://github.com/Jeweleni/Holiday-Challenge-MyGithub-portfolio ",
-        demo: "https://holiday-challenge-my-github-portfolio.vercel.app"
-    },
+    // {
+    //     id: 6,
+    //     image: Github,
+    //     title: "Github Portfolio",
+    //     github: "https://github.com/Jeweleni/Holiday-Challenge-MyGithub-portfolio ",
+    //     demo: "https://holiday-challenge-my-github-portfolio.vercel.app"
+    // },
 
     // {
     //     id: 6,
