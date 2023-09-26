@@ -34,13 +34,17 @@
 }
 
 .portfolio__items h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__items-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.portfolio__items p{
+    margin-top: 1rem;
 }
 
 /* ======MEDIA QUEARY MEDIUM DEVICE */

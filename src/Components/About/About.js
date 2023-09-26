@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import coding from "./coding.png"
 import { FaAward } from "react-icons/fa";
-import { IoSchoolSharp, IoGitNetwork } from "react-icons/io5";
+import { IoGitNetwork } from "react-icons/io5";
 
 const About = () => {
     return ( 
@@ -24,11 +24,6 @@ const About = () => {
                                 <h5>Experience</h5>
                                 <small>18 Months+</small>  
                             </article>
-                            {/* <article className="about__card">
-                                <IoSchoolSharp className= "about__icon"/>
-                               <h5>Education</h5>
-                                <small>Altschool Africa</small>
-                            </article> */}
                             <article className="about__card">
                                 <IoGitNetwork className= "about__icon"/>
                                 <h5>Projects</h5>
