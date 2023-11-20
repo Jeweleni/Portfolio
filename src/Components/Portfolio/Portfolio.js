@@ -1,17 +1,53 @@
 import React from 'react';
 import './Portfolio.css';
 import Authentication from "./porfolio-images/Authentication.png";
-import Dashboard from "./porfolio-images/Dashboard.png";
-import metaverse from "./porfolio-images/metaverse.png";
 import Summarize from "./porfolio-images/Summarize.png";
 import Carefinder from "./porfolio-images/Carefinder.png";
 import topratedmovies from "./porfolio-images/topratedmovies.png";
+import postpedia from './porfolio-images/postpedia.png';
+import chrome from './porfolio-images/chrome.png'
 
 
 const data =[
     
     {
         id: 1,
+        image: chrome,
+        title: "ScreenRecorder",
+        code: "Javascript",
+        // github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
+        demo: "https://admin-dashboard-application.vercel.app"
+    },
+
+    {
+        id: 2,
+        image: postpedia,
+        title: "Postpedia",
+        code: "Next Js",
+        // github: "https://github.com/Jeweleni/metaverse",
+        demo: "https://post-pedia-v1.vercel.app"
+    },
+
+    {
+        id: 3,
+        image: topratedmovies,
+        title: "Moviebox",
+        code: "Typescript",
+        // github: "https://github.com/Jeweleni/moviebox",
+        demo: "https://movie-discovery-by-jewel.vercel.app"
+    },
+
+    {
+        id: 4,
+        image: Authentication,
+        title: "Authentication App",
+        code: "Vue Js",
+        // github: "https://github.com/Jeweleni/Authentication-app-1",
+        demo: "https://authentication-app-1.vercel.app"
+    },
+    
+    {
+        id: 5,
         image: Carefinder,
         title: "Carefinder",
         code: "Typescript",
@@ -19,7 +55,7 @@ const data =[
         demo: "https://github.com/Jeweleni/carefinder"
     },
     {
-        id: 2,
+        id: 6,
         image: Summarize,
         title: "OpenAI GPT-4",
         code: "React Js",
@@ -27,42 +63,7 @@ const data =[
         demo: "https://openai-summarizer-inky.vercel.app/"
     },
     
-    {
-        id: 3,
-        image: Authentication,
-        title: "Authentication App",
-        code: "Vue Js",
-        // github: "https://github.com/Jeweleni/Authentication-app-1",
-        demo: "https://authentication-app-1.vercel.app/"
-    },
 
-    {
-        id: 4,
-        image: Dashboard,
-        title: "Admin Dashboard",
-        code: "syncfusion/ej2",
-        // github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
-        demo: "https://admin-dashboard-application.vercel.app/"
-    },
-
-    
-    {
-        id: 5,
-        image: metaverse,
-        title: "Metaverse",
-        code: "Next Js",
-        // github: "https://github.com/Jeweleni/metaverse",
-        demo: "https://metaversebyjewel.vercel.app/"
-    },
-
-    {
-        id: 6,
-        image: topratedmovies,
-        title: "Moviebox",
-        code: "Typescript",
-        // github: "https://github.com/Jeweleni/moviebox",
-        demo: "https://movie-discovery-by-jewel.vercel.app/home"
-    },
 
     
 ]
