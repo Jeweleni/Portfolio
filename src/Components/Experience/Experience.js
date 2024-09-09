@@ -1,8 +1,8 @@
 import React from "react";
 import "./Experience.css";
-import { FaNodeJs, FaGithub, FaHtml5, FaReact, FaVuejs } from "react-icons/fa";
+import { FaNodeJs, FaGithub, FaHtml5, FaReact, FaVuejs, FaPython } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandJavascript, TbLetterC} from "react-icons/tb";
-import {  SiTailwindcss, SiTypescript } from "react-icons/si";
+import {  SiMysql, SiTypescript } from "react-icons/si";
 
 const Experience = () => {
     return ( 
@@ -23,9 +23,9 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <FaVuejs className="experience__details-icon"/>
+                            <FaPython className="experience__details-icon"/>
                             <div>
-                            <h4>Vue Js</h4>
+                            <h4>Python</h4>
                            
                             </div>
                         </article>
@@ -38,9 +38,9 @@ const Experience = () => {
                         </article>
                         
                         <article className="experience__details">
-                            <FaHtml5 className="experience__details-icon"/>
+                            <FaVuejs className="experience__details-icon"/>
                             <div>
-                            <h4>Html5</h4>
+                            <h4>Vue Js</h4>
                            
                             </div>
                         </article>
@@ -86,9 +86,9 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <SiTailwindcss className="experience__details-icon"/>
+                            <SiMysql className="experience__details-icon"/>
                             <div>
-                            <h4>Tailwind CSS</h4>
+                            <h4>SQL</h4>
                           
                             </div>
                         </article>

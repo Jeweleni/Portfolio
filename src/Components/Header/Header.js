@@ -19,7 +19,7 @@ const Header = () => {
                 
                 <h1>Jewel</h1>
               
-                <h5 className="text-light"> I am a Frontend Engineer</h5>
+                <h5 className="text-light"> I am a Software Engineer</h5>
                 
               
                 <CTA/>
