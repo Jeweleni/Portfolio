@@ -16,7 +16,7 @@ const data =[
         title: "ScreenRecorder",
         code: "Javascript",
         // github: "https://github.com/Jeweleni/Admin-Dashboard-Application",
-        demo: "https://admin-dashboard-application.vercel.app"
+        demo: "https://hng-screen-recorder.vercel.apps"
     },
 
     {
@@ -52,7 +52,7 @@ const data =[
         title: "Carefinder",
         code: "Typescript",
         // github: "https://github.com/Jeweleni/carefinder",
-        demo: "https://github.com/Jeweleni/carefinder"
+        demo: "https://carefinder-jeweleni.vercel.app"
     },
     {
         id: 6,

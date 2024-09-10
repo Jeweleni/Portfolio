@@ -1,7 +1,7 @@
 import React from "react";
 import "./Experience.css";
 import { FaNodeJs, FaGithub, FaHtml5, FaReact, FaVuejs, FaPython } from "react-icons/fa";
-import { TbBrandNextjs, TbBrandJavascript, TbLetterC} from "react-icons/tb";
+import { TbBrandNextjs, TbBrandJavascript, TbLetterC, TbSql} from "react-icons/tb";
 import {  SiMysql, SiTypescript } from "react-icons/si";
 
 const Experience = () => {
@@ -86,7 +86,7 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <SiMysql className="experience__details-icon"/>
+                            <TbSql className="experience__details-icon"/>
                             <div>
                             <h4>SQL</h4>
                           
