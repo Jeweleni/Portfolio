@@ -9,20 +9,23 @@
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-}
-
-.contact__option{
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 0.6rem;
     border-radius: 1.2rem;
+    color: var(--color-white);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 
 }
 
-.contact__option:hover{
-    border-color: var(--color-primary-variant);
+.text{
+  color: var(--color-bg-variant);
+}
+
+
+/* .contact__option:hover{
+    border-color: var(--color-bg-variant);
     background: transparent;
 }
 
@@ -35,7 +38,7 @@
     font-size: 0.8rem;
     display: inline-block;
     margin-top: 0.7rem;
-}
+} */
 
 /* ======FORM======= */
 
@@ -55,6 +58,7 @@ input, textarea{
     resize: none;
     color: var(--color-white);
 }
+
 
 /* ======MEDIA QUESRIES (MEDIUM DEVICES) ====== */
 

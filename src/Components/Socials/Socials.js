@@ -6,7 +6,7 @@ const Socials = () => {
   return (
     <div className="header__socials">
        <a href="https://github.com/Jeweleni"  rel="noreferrer" target="_blank">
-        <FaGithub />
+        <FaGithub  />
       </a>
       <a href="https://www.linkedin.com/in/momoreoluwajeweleni" rel="noreferrer" target="_blank">
         <BsLinkedin />

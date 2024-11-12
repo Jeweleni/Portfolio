@@ -3,15 +3,22 @@ import './Portfolio.css';
 import Authentication from "./porfolio-images/Authentication.png";
 import Summarize from "./porfolio-images/Summarize.png";
 import Carefinder from "./porfolio-images/Carefinder.png";
-import topratedmovies from "./porfolio-images/topratedmovies.png";
 import postpedia from './porfolio-images/postpedia.png';
-import chrome from './porfolio-images/chrome.png'
+import chrome from './porfolio-images/chrome.png';
+import zuriportfolio from './porfolio-images/zuriportfolio.png'
 
 
 const data =[
     
     {
         id: 1,
+        image: zuriportfolio,
+        title: "ZuriPortfolio",
+        code: "NextJs",
+        demo: "https://zuriportfolio.vercel.app"
+    },
+    {
+        id: 2,
         image: chrome,
         title: "ScreenRecorder",
         code: "Javascript",
@@ -20,7 +27,7 @@ const data =[
     },
 
     {
-        id: 2,
+        id: 3,
         image: postpedia,
         title: "Postpedia",
         code: "Next Js",
@@ -28,14 +35,6 @@ const data =[
         demo: "https://post-pedia-v1.vercel.app"
     },
 
-    {
-        id: 3,
-        image: topratedmovies,
-        title: "Moviebox",
-        code: "Typescript",
-        // github: "https://github.com/Jeweleni/moviebox",
-        demo: "https://movie-discovery-by-jewel.vercel.app"
-    },
 
     {
         id: 4,

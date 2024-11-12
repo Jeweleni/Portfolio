@@ -31,13 +31,17 @@ const Contacts = () => {
               <MdOutlineEmail className='contact__option-icon'/>
               <h4>Email</h4>
               <h5>jeweleni@gmail.com</h5>
-              <a href='mailto:jeweleni@gmail.com'>Send a message</a>
+              <button className='btn btn-primary' onClick={SubmitEvent}>
+              <a className='text' href='mailto:jeweleni@gmail.com'>Send a message</a>
+              </button>
             </article>
             <article className="contact__option__option-icon">
               <BsWhatsapp className='conatact__option-icon'/>
               <h4>Whatsapp</h4>
               <h5>+2348147528661</h5>
-              <a href='https://api.whatsapp.com/send/?phone=2348147528661&text=Hello ' rel="noreferrer" target="_blank">Send a message</a>
+              <button className='btn btn-primary' onClick={SubmitEvent}>
+              <a className='text' href='https://api.whatsapp.com/send/?phone=2348147528661&text=Hello ' rel="noreferrer" target="_blank">Send a message</a>
+              </button>
             </article>
             {/* <article className="contact__option__option-icon">
               <FaLinkedin/>
