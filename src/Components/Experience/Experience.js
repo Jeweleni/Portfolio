@@ -1,13 +1,12 @@
 import React from "react";
 import "./Experience.css";
-import { FaNodeJs, FaGithub, FaHtml5, FaReact, FaVuejs, FaPython } from "react-icons/fa";
-import { TbBrandNextjs, TbBrandJavascript, TbLetterC, TbSql} from "react-icons/tb";
-import {  SiMysql, SiTypescript } from "react-icons/si";
+import { FaNodeJs, FaGithub, FaReact, FaVuejs, FaPython, FaJs } from "react-icons/fa";
+import { PiFileSql } from "react-icons/pi";
+import { SiTerraform, SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const Experience = () => {
-    return ( 
+    return (
         <section id="experience">
-            {/* <h5>Skills I have</h5> */}
             <h2>Experience</h2>
             <h5>My Skills include</h5>
 
@@ -30,7 +29,7 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <TbBrandJavascript className="experience__details-icon"/>
+                            <FaJs className="experience__details-icon"/>
                             <div>
                             <h4>Javascript</h4>
                            
@@ -45,7 +44,7 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <TbBrandNextjs className="experience__details-icon"/>
+                            <SiNextdotjs className="experience__details-icon"/>
                             <div>
                             <h4>Next Js</h4>
                             
@@ -65,9 +64,9 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <TbLetterC className="experience__details-icon"/>
+                            <SiTerraform className="experience__details-icon"/>
                             <div>
-                            <h4>C</h4>
+                            <h4>Terraform</h4>
                            
                             </div>
                         </article>
@@ -86,7 +85,7 @@ const Experience = () => {
                             </div>
                         </article>
                         <article className="experience__details">
-                            <TbSql className="experience__details-icon"/>
+                            <PiFileSql className="experience__details-icon"/>
                             <div>
                             <h4>SQL</h4>
                           
