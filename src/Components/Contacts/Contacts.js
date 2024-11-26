@@ -2,8 +2,8 @@ import React, {useRef} from 'react';
 import './Contacts.css';
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
-import { FaLinkedin } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
+// import { FaLinkedin } from 'react-icons/fa';
+import emailjs from '@emailjs/browser';
 
 const Contacts = () => {
 
@@ -13,11 +13,14 @@ const Contacts = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_jqznsom', 'template_bgvq6xn', form.current, 'HLnEWYTJOU0TEi63d')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    .then(
+      function (response) {
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      function (err) {
+        console.log('FAILED...', err);
+      },
+      );
   };
 
     return ( 
